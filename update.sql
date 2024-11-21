@@ -45,7 +45,7 @@ SET course_id = 2
 WHERE course_instructor_id = 4;
 -- Update the department name
 UPDATE Department
-SET department_name = 'Modern Literature'
+SET department_name = 'Modern literature'
 WHERE department_id = 5;
 
 -- Correct a typo in the department name
