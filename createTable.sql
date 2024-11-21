@@ -32,7 +32,7 @@ CREATE TABLE Enrollments (
     term VARCHAR(20),
     FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE,
     FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE,
-    UNIQUE (student_id, course_id) -- Ensures a student can only enroll once per course
+    UNIQUE (student_id, course_id) 
 );
 
 -- Create Grades table to store student grades for each course
@@ -40,7 +40,7 @@ CREATE TABLE Grades (
     grade_id INT PRIMARY KEY,
     student_id INT NOT NULL,
     course_id INT NOT NULL,
-    grade CHAR(2) CHECK (grade IN ('A', 'B', 'C', 'D', 'F', 'P')), -- Example grading system
+    grade CHAR(2) CHECK (grade IN ('A', 'B', 'C', 'D', 'F', 'P')), 
     term VARCHAR(20),
     comments TEXT,
     FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE,
