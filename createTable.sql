@@ -55,5 +55,5 @@ CREATE TABLE Courses_Instructors (
     instructor_id INT NOT NULL,
     FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE,
     FOREIGN KEY (instructor_id) REFERENCES Instructors(instructor_id) ON DELETE CASCADE,
-    UNIQUE (course_id, instructor_id) -- Ensures an instructor can only be assigned once per course
+    UNIQUE (course_id, instructor_id) 
 );
