@@ -1,135 +1,353 @@
 # Academic Records Management System (ARMS)
 
+---
+
 ## Team Members
-   ### NAMES                        /IDS
-1. **Bora Musoni Herve** -          24618  
-2. **Hakizimana Ghislain**          25411  
-3. **Rocky Kayitare**               24353  
-4. **Habimana Daniel**              25111  
-5. **Cyiza Kayitare Sabine**        24801  
-6. **Adolphe Uwayo**                25743  
-7. **Gatete Bertrand**              25958  
-8. **Niyonkuru Valens**             25097  
-9. **Manzi Munyambanza Darius**     25491  
-10. **Hirwa Clement Rhodin**        25787  
-11. **Karungi Rebecca**             26681  
+
+| **Name**                  | **ID**   |
+|---------------------------|----------|
+| **Bora Musoni Herve**     | 24618    |
+| **Hakizimana Ghislain**   | 25411    |
+| **Rocky Kayitare**        | 24353    |
+| **Habimana Daniel**       | 25111    |
+| **Cyiza Kayitare Sabine** | 24801    |
+| **Adolphe Uwayo**         | 25743    |
+| **Gatete Bertrand**       | 25958    |
+| **Niyonkuru Valens**      | 25097    |
+| **Manzi Munyambanza Darius** | 25491 |
+| **Hirwa Clement Rhodin**  | 25787    |
+| **Karungi Rebecca**       | 26681    |
 
 ---
 
 ## Project Overview
-The **Academic Records Management System (ARMS)** aims to streamline and centralize academic data management within educational institutions. By enhancing efficiency, accessibility, and data accuracy, ARMS ensures reliable and secure handling of academic records for students, instructors, and administrators.
+
+The **Academic Records Management System (ARMS)** is designed to modernize and simplify the management of academic data within educational institutions. ARMS enhances **efficiency**, **accessibility**, and **data accuracy**, ensuring secure and reliable handling of academic records for all stakeholders, including students, instructors, and administrators.
 
 ---
 
 ## Problem Statement
 
-### Introduction and Problem Overview
-Educational institutions generate significant student data annually. Traditional methods of managing this data, such as paper-based systems or outdated platforms, are often inefficient, prone to errors, and unable to handle the complexity of modern academic records.
+### Challenges in Current Systems
+- **Manual Management**: Labor-intensive processes prone to delays.
+- **Error-Prone Systems**: High risk of data inaccuracies.
+- **Limited Scalability**: Inability to meet modern academic needs.
 
-The **challenges** include:
-- Manual management leading to labor-intensive processes.
-- High risk of errors impacting both students and staff.
-
-### Solution
-The **Academic Records Management System (ARMS)** automates and centralizes academic record management by providing:
-- Seamless data retrieval and updates.
-- Streamlined processes for faculty, students, and administrators.
+### Proposed Solution
+The **Academic Records Management System (ARMS)** offers:
+- **Automation**: Streamlined processes for data handling.
+- **Centralization**: Unified platform for all academic data.
+- **Improved Accessibility**: Role-based access for students, instructors, and administrators.
 
 ---
 
 ## Project Objectives
 
-1. **Centralized Data Storage**  
-   A unified database consolidating student information, course details, enrollment data, grades, and instructor details.
-
-2. **Enhanced Accessibility and User Roles**  
-   Role-based access for stakeholders (students, instructors, administrators) to ensure transparency and security.
-
-3. **Data Integrity and Accuracy**  
-   Automated processes to reduce errors and maintain consistent data formats.
-
-4. **Simplified Data Retrieval and Analysis**  
-   Real-time data retrieval for academic planning, performance tracking, and decision-making.
+1. **Centralized Data Storage**: A unified database to manage student information, courses, grades, and instructor data.
+2. **Role-Based Accessibility**: Secure and transparent access for all stakeholders.
+3. **Data Integrity**: Automated processes to maintain accurate and consistent records.
+4. **Enhanced Analytics**: Tools for academic planning and performance tracking.
 
 ---
 
 ## Project Phases Summary
 
-### Phase 2: Business Process Modeling
-Focused on creating models for managing academic records:
-- **Process Mapping:** Key workflows identified (e.g., student enrollment, grading, instructor assignments).
-- **Modeling Techniques:** 
-  - **Swimlanes diagrams** outline tasks per role.
-  - **BPMN diagrams** visualize workflows.
+### **Phase 2: Business Process Modeling**
+- **Focus**: Identify and map workflows like enrollment, grading, and instructor assignments.
+- **Techniques**: 
+  - **Swimlane Diagrams**: Define task responsibilities.
+  - **BPMN Diagrams**: Visualize workflows.
 
-#### Deliverables
-- `PHASE 2.docx`: Detailed business process modeling.
-- `swimlanes.png`: Swimlanes diagram illustrating task allocation.
-- `bpmn.png`: BPMN diagram visualizing academic record processes.
+**Deliverables**:
+- `PHASE 2.docx`: Detailed business processes.
+- `swimlanes.png`: Role-based task distribution.
+- `bpmn.png`: Workflow visualization.
 
----
+### **Phase 3: Logical Model Design**
+- **Focus**: Design a logical database model with entities, relationships, and constraints.
 
-### Phase 3: Logical Model Design
-Designed a comprehensive logical database model, defining:
-- Entities, attributes, relationships, and constraints to support ARMS functionality.
-
-#### Deliverables
-- `PHASE 3.docx`: Logical data model with detailed entity descriptions.
-- `FLOW_DIAGRAM.PNG`: Diagram showcasing data structure and flow.
+**Deliverables**:
+- `PHASE 3.docx`: Comprehensive database model.
+- `FLOW_DIAGRAM.PNG`: Visualization of data structure.
 
 ---
 
 ## Repository Contents
 
 ### Documents
-- `PHASE 2.docx`: Business process modeling document.
-- `PHASE 3.docx`: Logical data model design document.
+- `PHASE 2.docx`: Business process documentation.
+- `PHASE 3.docx`: Logical database design.
 
 ### Diagrams
 1. **Flow Diagram**  
    ![Flow Diagram](FLOW_DIAGRAM.PNG)  
-   Illustrates relationships like many-to-many between students and courses, and connections with grades and instructors.
 
-2. **Swimlanes Diagram**  
-   ![Swimlanes](swimlanes.png)  
-   Visual representation of roles and task distribution.
+2. **Swimlane Diagram**  
+   ![Swimlanes Diagram](swimlanes.png)  
 
 3. **BPMN Diagram**  
-   ![BPMN](bpmn.png)  
-   Shows workflows for academic record management.
+   ![BPMN Diagram](bpmn.png)  
 
-### Database and OEM Setup
+### Database Setup
 1. **Pluggable Database**  
-   ![Pluggable Database](plugable.jpg)
+   ![Pluggable Database](plugable.jpg)  
 
 2. **Oracle Enterprise Manager**  
-   ![OEM](OEM.jpg)
+   ![OEM](OEM.jpg)  
 
 ---
-Students Table
---------------
 
-![students](https://github.com/user-attachments/assets/4c681cb7-ce23-4953-ae87-c821464bb228)
-Courses Table
--------------
+## SQL Queries
 
-![COURSES](https://github.com/user-attachments/assets/d602d93f-e405-4e18-9524-e7981ce6f6c2)
-Enrollments Table
------------------
+### Create Tables
+```sql
+-- Create Students table
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    contact_info VARCHAR(255),
+    enrollment_status VARCHAR(20) CHECK (enrollment_status IN ('Active', 'Inactive', 'Graduated')),
+    enrollment_date DATE
+);
 
-![enrollments](https://github.com/user-attachments/assets/effc795f-d96b-448d-94b6-12f6e3b6a0e4)
-Grades Tables
--------------
+-- Create Courses table
+CREATE TABLE Courses (
+    course_id INT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    credit_hours INT CHECK (credit_hours > 0),
+    prerequisites VARCHAR(255)
+);
 
-![grades](https://github.com/user-attachments/assets/b35d90f6-d199-4139-9fc0-51578e15cc0a)
-Courses_Instructors Table
--------------------------
+-- Create Instructors table
+CREATE TABLE Instructors (
+    instructor_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    department VARCHAR(100)
+);
 
-![COURSES_INSTRUCTORS](https://github.com/user-attachments/assets/66cb891a-7107-48b8-853c-19f69b15c2ce)
-Department Table
-----------------
+-- Create Enrollments table
+CREATE TABLE Enrollments (
+    enrollment_id INT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    enrollment_date DATE,
+    term VARCHAR(20),
+    FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE,
+    UNIQUE (student_id, course_id)
+);
 
-![department](https://github.com/user-attachments/assets/06979502-bcae-42dd-b9e9-132a50d710a7)
+-- Create Grades table
+CREATE TABLE Grades (
+    grade_id INT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    grade CHAR(2) CHECK (grade IN ('A', 'B', 'C', 'D', 'F', 'P')),
+    term VARCHAR(20),
+    comments TEXT,
+    FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE,
+    UNIQUE (student_id, course_id, term)
+);
 
-## Conclusion
-The Academic Records Management System (ARMS) centralizes academic record management, ensuring efficiency, data integrity, and accessibility for educational institutions. This repository provides a detailed overview of the system design, business process modeling, and database architecture to support seamless academic data handling.
+
+-- Insert students using subqueries from another table or calculated values
+INSERT INTO Students (student_id, name, contact_info, enrollment_status, enrollment_date)
+SELECT 
+    1, 'Alice Johnson', 'alice@example.com', 'Active', '2022-08-15'
+UNION ALL
+SELECT 
+    2, 'Bob Smith', 'bob@example.com', 'Active', '2021-09-12'
+UNION ALL
+SELECT 
+    3, 'Charlie Davis', 'charlie@example.com', 'Graduated', '2020-05-20'
+UNION ALL
+SELECT 
+    4, 'Diana Clark', 'diana@example.com', 'Active', '2023-01-10'
+UNION ALL
+SELECT 
+    5, 'Ethan Wright', 'ethan@example.com', 'Inactive', '2022-03-01';
+-- Insert courses using UNION to add multiple rows
+INSERT INTO Courses (course_id, title, credit_hours, prerequisites)
+SELECT 
+    1, 'Database Management Systems', 3, 'Introduction to Programming'
+UNION ALL
+SELECT 
+    2, 'Data Structures and Algorithms', 4, 'Programming Fundamentals'
+UNION ALL
+SELECT 
+    3, 'Artificial Intelligence', 3, 'Data Structures and Algorithms'
+UNION ALL
+SELECT 
+    4, 'Operating Systems', 3, 'Introduction to Programming'
+UNION ALL
+SELECT 
+    5, 'Computer Networks', 3, 'Operating Systems';
+-- Inserting multiple records separately for better readability
+INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date, term)
+VALUES (1, 1, 1, '2022-08-15', 'Fall 2022');
+
+INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date, term)
+VALUES (2, 2, 2, '2021-09-12', 'Spring 2021');
+
+INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date, term)
+VALUES (3, 3, 3, '2020-05-20', 'Fall 2019');
+
+INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date, term)
+VALUES (4, 4, 4, '2023-01-10', 'Spring 2023');
+
+INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date, term)
+VALUES (5, 5, 5, '2022-03-01', 'Summer 2022');
+-- Omitting the `comments` field if it allows NULL (assuming the column allows it to be null)
+INSERT INTO Grades (grade_id, student_id, course_id, grade, term)
+VALUES 
+    (1, 1, 1, 'A', 'Fall 2022'),
+    (2, 2, 2, 'B', 'Spring 2021'),
+    (3, 3, 3, 'A', 'Fall 2019'),
+    (4, 4, 4, 'C', 'Spring 2023'),
+    (5, 5, 5, 'B', 'Summer 2022');
+INSERT INTO Courses_Instructors (course_instructor_id, course_id, instructor_id)
+VALUES (1, 1, 1);
+
+INSERT INTO Courses_Instructors (course_instructor_id, course_id, instructor_id)
+VALUES (2, 2, 2);
+
+INSERT INTO Courses_Instructors (course_instructor_id, course_id, instructor_id)
+VALUES (3, 3, 3);
+
+INSERT INTO Courses_Instructors (course_instructor_id, course_id, instructor_id)
+VALUES (4, 4, 4);
+
+INSERT INTO Courses_Instructors (course_instructor_id, course_id, instructor_id)
+VALUES (5, 5, 5);
+-- Insert record for Computer Science Department
+INSERT INTO Department (department_id, department_name)
+VALUES (1, 'Computer Science');
+
+-- Insert record for Mathematics Department
+INSERT INTO Department (department_id, department_name)
+VALUES (2, 'Mathematics');
+
+-- Insert record for History Department
+INSERT INTO Department (department_id, department_name)
+VALUES (3, 'History');
+
+-- Insert record for Physics Department
+INSERT INTO Department (department_id, department_name)
+VALUES (4, 'Physics');
+
+-- Insert record for Literature Department
+INSERT INTO Department (department_id, department_name)
+VALUES (5, 'Literature');
+
+
+
+
+-- Remove a student record
+DELETE FROM Students
+WHERE student_id = 5;
+
+-- Remove a course record
+DELETE FROM Courses
+WHERE course_id = 5;
+-- Delete an enrollment record
+DELETE FROM Enrollments
+WHERE enrollment_id = 3;
+-- Delete a grade record
+DELETE FROM Grades
+WHERE grade_id = 4;
+-- Remove a course-instructor relationship
+DELETE FROM Courses_Instructors
+WHERE course_instructor_id = 2;
+-- Remove a department
+DELETE FROM Department
+WHERE department_id = 5;
+
+
+
+-- Update contact information for a student
+UPDATE Students
+SET contact_info = 'alice.johnson@example.com'
+WHERE student_id = 1;
+
+-- Change enrollment status of a student
+UPDATE Students
+SET enrollment_status = 'Inactive'
+WHERE student_id = 5;
+-- Update credit hours for a course
+UPDATE Courses
+SET credit_hours = 4
+WHERE course_id = 4;
+
+-- Change the title of a course
+UPDATE Courses
+SET title = 'Advanced Operating Systems'
+WHERE course_id = 4;
+-- Update the term for a specific enrollment
+UPDATE Enrollments
+SET term = 'Winter 2023'
+WHERE enrollment_id = 4;
+
+-- Change the course for an enrollment
+UPDATE Enrollments
+SET course_id = 3
+WHERE enrollment_id = 5;
+-- Update a student's grade
+UPDATE Grades
+SET grade = 'A+'
+WHERE grade_id = 2;
+
+-- Add a comment for a grade
+UPDATE Grades
+SET comments = 'Excellent'
+WHERE grade_id = 1;
+
+-- Change the instructor for a course
+UPDATE Courses_Instructors
+SET instructor_id = 5
+WHERE course_instructor_id = 3;
+
+-- Update course assignment for an instructor
+UPDATE Courses_Instructors
+SET course_id = 2
+WHERE course_instructor_id = 4;
+
+-- Update the department name
+UPDATE Department
+SET department_name = 'Modern Literature'
+WHERE department_id = 5;
+
+-- Correct a typo in the department name
+UPDATE Department
+SET department_name = 'Computer and Information Science'
+WHERE department_id = 1;
+
+SELECT 
+    Students.name AS student_name,
+    Courses.title AS course_title
+FROM 
+    Students
+CROSS JOIN Courses;
+
+SELECT 
+    Students.name AS student_name,
+    Courses.title AS course_title
+FROM 
+    Enrollments
+INNER JOIN Students ON Enrollments.student_id = Students.student_id
+INNER JOIN Courses ON Enrollments.course_id = Courses.course_id;
+
+SELECT 
+    Students.name AS student_name,
+    Enrollments.course_id AS enrolled_course_id
+FROM 
+    Students
+LEFT OUTER JOIN Enrollments ON Students.student_id = Enrollments.student_id;
+
+SELECT 
+    Courses.title AS course_title,
+    Enrollments.student_id AS student_enrolled
+FROM 
+    Courses
+RIGHT OUTER JOIN Enrollments ON Courses.course_id = Enrollments.course_id;
+```
