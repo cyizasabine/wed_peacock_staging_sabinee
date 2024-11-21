@@ -106,6 +106,30 @@ Designed a comprehensive logical database model, defining:
    ![OEM](OEM.jpg)
 
 ---
+Students Table
+--------------
+
+![students](https://github.com/user-attachments/assets/4c681cb7-ce23-4953-ae87-c821464bb228)
+Courses Table
+-------------
+
+![COURSES](https://github.com/user-attachments/assets/d602d93f-e405-4e18-9524-e7981ce6f6c2)
+Enrollments Table
+-----------------
+
+![enrollments](https://github.com/user-attachments/assets/effc795f-d96b-448d-94b6-12f6e3b6a0e4)
+Grades Tables
+-------------
+
+![grades](https://github.com/user-attachments/assets/b35d90f6-d199-4139-9fc0-51578e15cc0a)
+Courses_Instructors Table
+-------------------------
+
+![COURSES_INSTRUCTORS](https://github.com/user-attachments/assets/66cb891a-7107-48b8-853c-19f69b15c2ce)
+Department Table
+----------------
+
+![department](https://github.com/user-attachments/assets/06979502-bcae-42dd-b9e9-132a50d710a7)
 
 ## Conclusion
 The Academic Records Management System (ARMS) centralizes academic record management, ensuring efficiency, data integrity, and accessibility for educational institutions. This repository provides a detailed overview of the system design, business process modeling, and database architecture to support seamless academic data handling.
