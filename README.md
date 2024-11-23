@@ -43,7 +43,7 @@ The **Academic Records Management System (ARMS)** offers:
 
 ## Project Objectives
 
-1. **Centralized Data Storage**: A unified database to manage student information, courses, grades, and instructor data.
+1. **Centralized Data Storage**: A unified databases to manage student information, courses, grades, and instructor data.
 2. **Role-Based Accessibility**: Secure and transparent access for all stakeholders.
 3. **Data Integrity**: Automated processes to maintain accurate and consistent records.
 4. **Enhanced Analytics**: Tools for academic planning and performance tracking.
